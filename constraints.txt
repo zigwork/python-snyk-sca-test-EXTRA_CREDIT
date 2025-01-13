@@ -1,3 +1,6 @@
-pandas==1.3.3
+# pandas==1.3.3 #1.3.3 is incompatible with Python 3.10, pushed constraint to next version that is compatible with 3.10
+pandas==1.3.4
 numpy==1.21.2
 pillow==10.2.0
+pytz==2017.3 #I added this to pin the lowest version compatible with numpy and pandas versions specified here
+lxml==4.6.5 #I added this to pin to the lowest version compatible with these deps AND python 3.10. lxml==4.5.0 has problems with 3.10
