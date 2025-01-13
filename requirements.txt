@@ -22,7 +22,7 @@ google-api-python-client==1.6.2
 httplib2==0.10.3
 idna==2.5
 itsdangerous==0.24
-# # lxml==4.5.0 #errors out on my system
+lxml==4.5.0 #errors out on my system
 oauth2client==4.1.1
 pyasn1==0.2.3
 pyasn1-modules==0.0.9
